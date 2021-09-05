@@ -16,7 +16,15 @@
       display: grid;
       /* grid-template-columns: 30% 20% 50%; */
       /* grid-template-columns: 4fr 4fr 4fr; */
-      grid-template-columns: repeat(9, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      /* grid-template-rows: 200px 300px 400px 200px; */
+      /* grid-template-rows: repeat(3, 200px); */
+      grid-template-rows: repeat(3, minmax(200px, auto));
+      /* grid-auto-rows: 200px; */
+      /* grid-auto-rows: minmax(200px, auto); */
+      /* grid-column-gap: 10px;
+      grid-row-gap: 10px; */
+      grid-gap: 10px;
       max-width: 960px;
       margin: 0 auto;
     }
@@ -37,7 +45,7 @@
 
     <div>1</div>
     <div>2</div>
-    <div>3</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, praesentium atque exercitationem architecto at repellat, voluptatibus veniam aliquam est sed quas eaque nostrum porro ab autem tempora illo libero sapiente nihil maxime consequatur! Quibusdam beatae quam eligendi quae. Voluptatibus quo dicta porro ducimus natus quis corporis quam doloremque explicabo qui!</div>
     <div>4</div>
     <div>5</div>
     <div>6</div>
